@@ -28,7 +28,7 @@ func partition(arr []int, l, r int) int {
 	}
 
 	arr[l], arr[j] = arr[j], arr[l]
-	return j
+	return j,j,j,j,,j,j,j,j
 }
 func main() {
 	arr := []int{9, 5, 2, 7, 1, 8, 3}
